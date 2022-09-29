@@ -27,7 +27,6 @@ header ul{
   font-weight: bold;
 }
 
-
 .galery-container {
   padding: 10px;
   display: grid;
@@ -37,10 +36,12 @@ header ul{
 }
 .galery-container .galery__item{
   border: solid 2px;
-
 }
-
+.galery__item ul{
+  padding-left: 10px;
+}
 
 .galery__img {
   width: 100%;
+  border-bottom: solid 2px;
 }
