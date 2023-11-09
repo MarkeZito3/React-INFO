@@ -1,0 +1,40 @@
+#root {
+  max-width: 2280px;
+  margin: 0 ;
+  padding: 0;
+  /* text-align: center; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+.movie {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.movieInfo {
+  width: 400px;
+}
+.moviePoster{
+  /* width: 400px; */
+  text-align: center;
+  margin-right: 50px;
+}
+.moviePoster img{
+  width: 140px;
+  height: 247px;
+}
+.directorAndActors{
+  color: #2778b8;
+}
+.title{
+  color: #2778b8;
+}
+.rate {
+  color: gray
+}
+.rate span{
+  color: whitesmoke
+}
