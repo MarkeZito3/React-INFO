@@ -18,11 +18,43 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-
-.card {
-  padding: 10px;
+div.containter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  border-color: rgba(255, 255, 255, 0.87);
 }
 
-.read-the-docs {
-  color: #888;
+div.btn-col{
+  margin: 1rem ;
+}
+
+div.rojo {
+  background-color: rgb(255, 0, 0);
+}
+div.naranja {
+  background-color:orange;
+}
+div.amarillo {
+  background-color:yellow;
+}
+div.verde {
+  background-color:greenyellow;
+}
+div.celeste {
+  background-color:cyan;
+}
+div.azul {
+  background-color:blue;
+}
+div.violeta {
+  background-color:purple;
+}
+div.rosa {
+  background-color:pink;
 }
