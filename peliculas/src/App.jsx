@@ -31,8 +31,8 @@ const metaScore = (metascore) => {
 };
 
 
-const Movies = ({ poster, title, releaseDate, duration, maturity, genres, director, mainActors, plot, metascore, rating }) =>(
-  <li className='movie'>
+const Movies = ({ poster, title, releaseDate, duration, maturity, genres, director, mainActors, plot, metascore, rating, id }) =>(
+  <li key = {id} className='movie'>
     <div className='moviePoster'>
       <img src={`${poster}`} />
     </div>
@@ -52,11 +52,11 @@ const Movies = ({ poster, title, releaseDate, duration, maturity, genres, direct
 function App() {
   return (
     <div>
-      <button >click me uwu</button>
       <ul>
         {MOVIES_DATA.map((movie) => (
           <div>
-            <Movies 
+            <Movies
+              id={movie.movie+movie.duration}
               poster={movie.poster}
               title={movie.title}
               releaseDate={movie.releaseDate}
